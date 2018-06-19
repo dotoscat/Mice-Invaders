@@ -1,0 +1,38 @@
+{
+
+	"frames": {
+		"cat_stand": {
+			"x": 0,
+			"y": 0,
+			"w": 16,
+			"h": 16,
+		},
+		"cat_close_eye": {
+			"x": 16,
+			"y": 0,
+			"w": 16,
+			"h": 16,
+		},
+		"cat_walk_1": {
+			"x": 0,
+			"y": 16,
+			"w": 16,
+			"h": 16,
+		},
+		"cat_walk_meow": {
+			"x": 16,
+			"y": 16,
+			"w": 16,
+			"h": 16,
+		},
+	},
+
+	"cat_idle": {
+		"frame_duration": 0.25,
+		"frames": ["cat_stand", "cat_stand", "cat_stand", "cat_close_eye"],
+	},
+	"cat_walk": {
+		"frame_duration": 0.25,
+		"frames": ["cat_walk_1", "cat_stand"]
+	},
+}

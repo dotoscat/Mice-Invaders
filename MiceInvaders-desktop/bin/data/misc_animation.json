@@ -1,0 +1,22 @@
+{
+
+	"frames": {
+		"bullet_1": {
+			"x": 0,
+			"y": 32,
+			"w": 16,
+			"h": 16,
+		},
+		"bullet_2": {
+			"x": 16,
+			"y": 32,
+			"w": 16,
+			"h": 16,
+		},
+	},
+
+	"bullet_1": {
+		"frame_duration": 0.12,
+		"frames": ["bullet_1", "bullet_2"],
+	},
+}
